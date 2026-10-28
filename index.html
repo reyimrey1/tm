@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.00001, viewport-fit=cover" />
+    <base href="/TMeSmart-App/" />
+    <title>TMeSmart</title>
+    <style>
+        html,
+        body,
+        #root {
+            width: 100%;
+            -webkit-overflow-scrolling: touch;
+            margin: 0px;
+            padding: 0px;
+            min-height: 100%;
+        }
+
+        #root {
+            flex-shrink: 0;
+            flex-basis: auto;
+            flex-grow: 1;
+            display: flex;
+            flex: 1;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+            height: calc(100% + env(safe-area-inset-top));
+        }
+
+        body {
+            display: flex;
+            overflow-y: auto;
+            overscroll-behavior-y: none;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -ms-overflow-style: scrollbar;
+        }
+    </style>
+
+<link rel="icon" href="favicon.ico" /></head>
+
+<body>
+    <noscript>
+        <div style="font-size: 18px; font-family: Helvetica, sans-serif; line-height: 24px; margin: 10%; width: 80%;">
+            <p>JavaScript is required to run this app. (v1.3)</p>
+        </div>
+    </noscript>
+    <div id="root"></div>
+<script src="_expo/static/js/web/AppEntry-2eb7488e856e3c0612a0bc8317dad6ba.js" defer></script>
+</body>
+
+</html>
